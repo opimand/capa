@@ -6,7 +6,7 @@
 
     <meta charset="utf-8">
 
-    <title>Photogallery</title>
+    <title>Фотогалерея</title>
     <meta name="description" content="Startup HTML template OptimizedHTML 5">
 
     <meta name="viewport" content="width=device-width">
@@ -29,21 +29,24 @@
     <header class="header">
         <nav class="topnav" id="myTopNav"><a class="burger"><div class="bar1"></div>
             <div class="bar2"></div>
-            <div class="bar3"></div></a><a href="/" class="topnav__logo"><img class="logo" src="./img/logo.png" alt="Logo"></a>
+            <div class="bar3"></div></a>
+            <a href="./index.html" class="topnav__logo"><img class="logo" src="./img/logo.png" alt="Logo"></a>
             <div class="topnav__links">
                 <a href="./lessons.html" class="topnav__link">Занятия</a>
-                <a class="topnav__link">Лагеря</a>
+                <a href="./camps.html" class="topnav__link">Лагеря</a>
                 <div class="topnav__dropdown">
                     <button class="topnav__dropbtn">О нас</button>
                     <div class="topnav__dropdown-content">
                         <a href="./photogallery.html" class="topnav__dropdown-link">Фотогалерея</a>
-                        <a  href="#"  class="topnav__dropdown-link">События</a>
+                        <a  href="./events.html"  class="topnav__dropdown-link">События</a>
                         <a href="#"   class="topnav__dropdown-link">Преподаватели</a>
                         <a  href="#"  class="topnav__dropdown-link">Вопросы новичков</a>
                         <a  href="./news.html"  class="topnav__dropdown-link">Новости</a>
-                        <a  href="#"  class="topnav__dropdown-link">Друзья</a>
+                        <a  href="./friends.html"  class="topnav__dropdown-link">Друзья</a>
                     </div>
-                </div><a class="topnav__link">О капоэйра</a><a class="topnav__link">Ludus BJJ</a>
+                </div>
+                <a href="./about-capoeira.html" class="topnav__link">О капоэйра</a>
+                <a class="topnav__link">Ludus BJJ</a>
                 <a href="./contacts.html" class="topnav__link">Контакты</a>
             </div>
             <div class="topnav__wrap-contacts">
@@ -111,8 +114,8 @@
                     </a>
                 </div>
                 <div class="photogallery-page__title">Фотогалерея</div>
-                <div class="photogallery-page__row">
-                    <a  href="#" class="photogallery-page__column" data-open="modal1">
+                <div class="photogallery-page__row" id="lg">
+                    <a  href="./photogallery-page.html" class="photogallery-page__column" data-open="modal1">
                         <img src="./img/gallery1.jpg" alt="photogallery-page" class="photogallery-page__column-img">
                         <div class="photogallery-page__text-wrap">
                             <div class="photogallery-page__title-date">5 июня</div>
@@ -120,7 +123,7 @@
                         </div>
                         <div class="photogallery-page__overlay"></div>
                     </a>
-                    <a href="#" class="photogallery-page__column" data-open="modal2">
+                    <a href="./photogallery-page.html" class="photogallery-page__column" data-open="modal2">
                         <img src="./img/gallery2.jpg" alt="photogallery-page" class="photogallery-page__column-img">
                         <div class="photogallery-page__text-wrap">
                             <div class="photogallery-page__title-date">5 июня</div>
@@ -128,7 +131,7 @@
                         </div>
                         <div class="photogallery-page__overlay"></div>
                     </a>
-                    <a href="#" class="photogallery-page__column" data-open="modal3">
+                    <a href="./photogallery-page.html" class="photogallery-page__column" data-open="modal3">
                         <img src="./img/gallery3.jpg" alt="photogallery-page" class="photogallery-page__column-img">
                         <div class="photogallery-page__text-wrap">
                             <div class="photogallery-page__title-date">5 июня</div>
@@ -140,7 +143,7 @@
 
                 </div>
                 <div class="photogallery-page__row">
-                    <a  href="#" class="photogallery-page__column" data-open="modal4">
+                    <a  href="./photogallery-page.html" class="photogallery-page__column" data-open="modal4">
                         <img src="./img/gallery4.jpg" alt="photogallery-page" class="photogallery-page__column-img">
                         <div class="photogallery-page__text-wrap">
                             <div class="photogallery-page__title-date">5 июня</div>
@@ -148,7 +151,7 @@
                         </div>
                         <div class="photogallery-page__overlay"></div>
                     </a>
-                    <a href="#" class="photogallery-page__column" data-open="modal5">
+                    <a href="./photogallery-page.html" class="photogallery-page__column" data-open="modal5">
                         <img src="./img/gallery5.jpg" alt="photogallery-page" class="photogallery-page__column-img">
                         <div class="photogallery-page__text-wrap">
                             <div class="photogallery-page__title-date">5 июня</div>
@@ -156,7 +159,7 @@
                         </div>
                         <div class="photogallery-page__overlay"></div>
                     </a>
-                    <a href="#" class="photogallery-page__column" data-open="modal6">
+                    <a href="./photogallery-page.html" class="photogallery-page__column" data-open="modal6">
                         <img src="./img/gallery6.jpg" alt="photogallery-page" class="photogallery-page__column-img">
                         <div class="photogallery-page__text-wrap">
                             <div class="photogallery-page__title-date">5 июня</div>
@@ -171,206 +174,206 @@
         </section>
 
     </div>
-    <div class="slider-modal" id="modal1">
-        <div class="slider-wrapper">
-            <div class="gallery-slider modal1">
-                <img src="./img/sliderGal.jpg" alt="slide" class="slide">
-                <img src="./img/sliderGal.jpg" alt="slide" class="slide">
-                <img src="./img/sliderGal.jpg" alt="slide" class="slide">
-                <img src="./img/sliderGal.jpg" alt="slide" class="slide">
-                <img src="./img/sliderGal.jpg" alt="slide" class="slide">
-            </div>
-            <div class="slider-btn-prev">
-                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 477.175 477.175" style="enable-background:new 0 0 477.175 477.175;" xml:space="preserve">
-<g>
-	<path d="M145.188,238.575l215.5-215.5c5.3-5.3,5.3-13.8,0-19.1s-13.8-5.3-19.1,0l-225.1,225.1c-5.3,5.3-5.3,13.8,0,19.1l225.1,225   c2.6,2.6,6.1,4,9.5,4s6.9-1.3,9.5-4c5.3-5.3,5.3-13.8,0-19.1L145.188,238.575z"/>
-</g>
+<!--    <div class="slider-modal" id="modal1">-->
+<!--        <div class="slider-wrapper">-->
+<!--            <div class="gallery-slider modal1">-->
+<!--                <img src="./img/sliderGal.jpg" alt="slide" class="slide">-->
+<!--                <img src="./img/sliderGal.jpg" alt="slide" class="slide">-->
+<!--                <img src="./img/sliderGal.jpg" alt="slide" class="slide">-->
+<!--                <img src="./img/sliderGal.jpg" alt="slide" class="slide">-->
+<!--                <img src="./img/sliderGal.jpg" alt="slide" class="slide">-->
+<!--            </div>-->
+<!--            <div class="slider-btn-prev">-->
+<!--                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 477.175 477.175" style="enable-background:new 0 0 477.175 477.175;" xml:space="preserve">-->
+<!--<g>-->
+<!--	<path d="M145.188,238.575l215.5-215.5c5.3-5.3,5.3-13.8,0-19.1s-13.8-5.3-19.1,0l-225.1,225.1c-5.3,5.3-5.3,13.8,0,19.1l225.1,225   c2.6,2.6,6.1,4,9.5,4s6.9-1.3,9.5-4c5.3-5.3,5.3-13.8,0-19.1L145.188,238.575z"/>-->
+<!--</g>-->
 
-</svg>
-            </div>
-            <div class="slider-btn-next">
-                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 129 129" enable-background="new 0 0 129 129">
-                    <g>
-                        <path d="m40.4,121.3c-0.8,0.8-1.8,1.2-2.9,1.2s-2.1-0.4-2.9-1.2c-1.6-1.6-1.6-4.2 0-5.8l51-51-51-51c-1.6-1.6-1.6-4.2 0-5.8 1.6-1.6 4.2-1.6 5.8,0l53.9,53.9c1.6,1.6 1.6,4.2 0,5.8l-53.9,53.9z"/>
-                    </g>
-                </svg>
-            </div>
-            <div class="close-wrapper">
-                <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100"><g><g clip-path="url(#clip-78EDDDF4-D35F-49DF-AAFD-5767E7BC275A)"><path fill="#282f40" d="M100 100c55.228 0 100-44.772 100-100s-44.772-100-100-100S0-55.228 0 0s44.772 100 100 100z"/></g></g></svg>
-                <span class="close">&times;</span>
-            </div>
+<!--</svg>-->
+<!--            </div>-->
+<!--            <div class="slider-btn-next">-->
+<!--                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 129 129" enable-background="new 0 0 129 129">-->
+<!--                    <g>-->
+<!--                        <path d="m40.4,121.3c-0.8,0.8-1.8,1.2-2.9,1.2s-2.1-0.4-2.9-1.2c-1.6-1.6-1.6-4.2 0-5.8l51-51-51-51c-1.6-1.6-1.6-4.2 0-5.8 1.6-1.6 4.2-1.6 5.8,0l53.9,53.9c1.6,1.6 1.6,4.2 0,5.8l-53.9,53.9z"/>-->
+<!--                    </g>-->
+<!--                </svg>-->
+<!--            </div>-->
+<!--            <div class="close-wrapper">-->
+<!--                <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100"><g><g clip-path="url(#clip-78EDDDF4-D35F-49DF-AAFD-5767E7BC275A)"><path fill="#282f40" d="M100 100c55.228 0 100-44.772 100-100s-44.772-100-100-100S0-55.228 0 0s44.772 100 100 100z"/></g></g></svg>-->
+<!--                <span class="close">&times;</span>-->
+<!--            </div>-->
 
-        </div>
-    </div>
+<!--        </div>-->
+<!--    </div>-->
 
-        <div class="slider-modal" id="modal2">
-            <div class="slider-wrapper">
-                <div class="gallery-slider modal2">
-                    <img src="./img/sliderGal.jpg" alt="slide" class="slide">
-                    <img src="./img/sliderGal.jpg" alt="slide" class="slide">
-                    <img src="./img/sliderGal.jpg" alt="slide" class="slide">
-                    <img src="./img/sliderGal.jpg" alt="slide" class="slide">
-                    <img src="./img/sliderGal.jpg" alt="slide" class="slide">
-                </div>
-                <div class="slider-btn-prev">
-                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 477.175 477.175" style="enable-background:new 0 0 477.175 477.175;" xml:space="preserve">
-<g>
-	<path d="M145.188,238.575l215.5-215.5c5.3-5.3,5.3-13.8,0-19.1s-13.8-5.3-19.1,0l-225.1,225.1c-5.3,5.3-5.3,13.8,0,19.1l225.1,225   c2.6,2.6,6.1,4,9.5,4s6.9-1.3,9.5-4c5.3-5.3,5.3-13.8,0-19.1L145.188,238.575z"/>
-</g>
+<!--        <div class="slider-modal" id="modal2">-->
+<!--            <div class="slider-wrapper">-->
+<!--                <div class="gallery-slider modal2">-->
+<!--                    <img src="./img/sliderGal.jpg" alt="slide" class="slide">-->
+<!--                    <img src="./img/sliderGal.jpg" alt="slide" class="slide">-->
+<!--                    <img src="./img/sliderGal.jpg" alt="slide" class="slide">-->
+<!--                    <img src="./img/sliderGal.jpg" alt="slide" class="slide">-->
+<!--                    <img src="./img/sliderGal.jpg" alt="slide" class="slide">-->
+<!--                </div>-->
+<!--                <div class="slider-btn-prev">-->
+<!--                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 477.175 477.175" style="enable-background:new 0 0 477.175 477.175;" xml:space="preserve">-->
+<!--<g>-->
+<!--	<path d="M145.188,238.575l215.5-215.5c5.3-5.3,5.3-13.8,0-19.1s-13.8-5.3-19.1,0l-225.1,225.1c-5.3,5.3-5.3,13.8,0,19.1l225.1,225   c2.6,2.6,6.1,4,9.5,4s6.9-1.3,9.5-4c5.3-5.3,5.3-13.8,0-19.1L145.188,238.575z"/>-->
+<!--</g>-->
 
-</svg>
-                </div>
-                <div class="slider-btn-next">
-                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 129 129" enable-background="new 0 0 129 129">
-                        <g>
-                            <path d="m40.4,121.3c-0.8,0.8-1.8,1.2-2.9,1.2s-2.1-0.4-2.9-1.2c-1.6-1.6-1.6-4.2 0-5.8l51-51-51-51c-1.6-1.6-1.6-4.2 0-5.8 1.6-1.6 4.2-1.6 5.8,0l53.9,53.9c1.6,1.6 1.6,4.2 0,5.8l-53.9,53.9z"/>
-                        </g>
-                    </svg>
-                </div>
-                <div class="close-wrapper">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100"><g><g clip-path="url(#clip-78EDDDF4-D35F-49DF-AAFD-5767E7BC275A)"><path fill="#282f40" d="M100 100c55.228 0 100-44.772 100-100s-44.772-100-100-100S0-55.228 0 0s44.772 100 100 100z"/></g></g></svg>
-                    <span class="close">&times;</span>
-                </div>
+<!--</svg>-->
+<!--                </div>-->
+<!--                <div class="slider-btn-next">-->
+<!--                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 129 129" enable-background="new 0 0 129 129">-->
+<!--                        <g>-->
+<!--                            <path d="m40.4,121.3c-0.8,0.8-1.8,1.2-2.9,1.2s-2.1-0.4-2.9-1.2c-1.6-1.6-1.6-4.2 0-5.8l51-51-51-51c-1.6-1.6-1.6-4.2 0-5.8 1.6-1.6 4.2-1.6 5.8,0l53.9,53.9c1.6,1.6 1.6,4.2 0,5.8l-53.9,53.9z"/>-->
+<!--                        </g>-->
+<!--                    </svg>-->
+<!--                </div>-->
+<!--                <div class="close-wrapper">-->
+<!--                    <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100"><g><g clip-path="url(#clip-78EDDDF4-D35F-49DF-AAFD-5767E7BC275A)"><path fill="#282f40" d="M100 100c55.228 0 100-44.772 100-100s-44.772-100-100-100S0-55.228 0 0s44.772 100 100 100z"/></g></g></svg>-->
+<!--                    <span class="close">&times;</span>-->
+<!--                </div>-->
 
-            </div>
-        </div>
-            <div class="slider-modal" id="modal3">
-                <div class="slider-wrapper">
-                    <div class="gallery-slider modal3">
-                        <img src="./img/sliderGal.jpg" alt="slide" class="slide">
-                        <img src="./img/sliderGal.jpg" alt="slide" class="slide">
-                        <img src="./img/sliderGal.jpg" alt="slide" class="slide">
-                        <img src="./img/sliderGal.jpg" alt="slide" class="slide">
-                        <img src="./img/sliderGal.jpg" alt="slide" class="slide">
-                    </div>
-                    <div class="slider-btn-prev">
-                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 477.175 477.175" style="enable-background:new 0 0 477.175 477.175;" xml:space="preserve">
-<g>
-	<path d="M145.188,238.575l215.5-215.5c5.3-5.3,5.3-13.8,0-19.1s-13.8-5.3-19.1,0l-225.1,225.1c-5.3,5.3-5.3,13.8,0,19.1l225.1,225   c2.6,2.6,6.1,4,9.5,4s6.9-1.3,9.5-4c5.3-5.3,5.3-13.8,0-19.1L145.188,238.575z"/>
-</g>
+<!--            </div>-->
+<!--        </div>-->
+<!--            <div class="slider-modal" id="modal3">-->
+<!--                <div class="slider-wrapper">-->
+<!--                    <div class="gallery-slider modal3">-->
+<!--                        <img src="./img/sliderGal.jpg" alt="slide" class="slide">-->
+<!--                        <img src="./img/sliderGal.jpg" alt="slide" class="slide">-->
+<!--                        <img src="./img/sliderGal.jpg" alt="slide" class="slide">-->
+<!--                        <img src="./img/sliderGal.jpg" alt="slide" class="slide">-->
+<!--                        <img src="./img/sliderGal.jpg" alt="slide" class="slide">-->
+<!--                    </div>-->
+<!--                    <div class="slider-btn-prev">-->
+<!--                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 477.175 477.175" style="enable-background:new 0 0 477.175 477.175;" xml:space="preserve">-->
+<!--<g>-->
+<!--	<path d="M145.188,238.575l215.5-215.5c5.3-5.3,5.3-13.8,0-19.1s-13.8-5.3-19.1,0l-225.1,225.1c-5.3,5.3-5.3,13.8,0,19.1l225.1,225   c2.6,2.6,6.1,4,9.5,4s6.9-1.3,9.5-4c5.3-5.3,5.3-13.8,0-19.1L145.188,238.575z"/>-->
+<!--</g>-->
 
-</svg>
-                    </div>
-                    <div class="slider-btn-next">
-                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 129 129" enable-background="new 0 0 129 129">
-                            <g>
-                                <path d="m40.4,121.3c-0.8,0.8-1.8,1.2-2.9,1.2s-2.1-0.4-2.9-1.2c-1.6-1.6-1.6-4.2 0-5.8l51-51-51-51c-1.6-1.6-1.6-4.2 0-5.8 1.6-1.6 4.2-1.6 5.8,0l53.9,53.9c1.6,1.6 1.6,4.2 0,5.8l-53.9,53.9z"/>
-                            </g>
-                        </svg>
-                    </div>
-                    <div class="close-wrapper">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100"><g><g clip-path="url(#clip-78EDDDF4-D35F-49DF-AAFD-5767E7BC275A)"><path fill="#282f40" d="M100 100c55.228 0 100-44.772 100-100s-44.772-100-100-100S0-55.228 0 0s44.772 100 100 100z"/></g></g></svg>
-                        <span class="close">&times;</span>
-                    </div>
+<!--</svg>-->
+<!--                    </div>-->
+<!--                    <div class="slider-btn-next">-->
+<!--                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 129 129" enable-background="new 0 0 129 129">-->
+<!--                            <g>-->
+<!--                                <path d="m40.4,121.3c-0.8,0.8-1.8,1.2-2.9,1.2s-2.1-0.4-2.9-1.2c-1.6-1.6-1.6-4.2 0-5.8l51-51-51-51c-1.6-1.6-1.6-4.2 0-5.8 1.6-1.6 4.2-1.6 5.8,0l53.9,53.9c1.6,1.6 1.6,4.2 0,5.8l-53.9,53.9z"/>-->
+<!--                            </g>-->
+<!--                        </svg>-->
+<!--                    </div>-->
+<!--                    <div class="close-wrapper">-->
+<!--                        <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100"><g><g clip-path="url(#clip-78EDDDF4-D35F-49DF-AAFD-5767E7BC275A)"><path fill="#282f40" d="M100 100c55.228 0 100-44.772 100-100s-44.772-100-100-100S0-55.228 0 0s44.772 100 100 100z"/></g></g></svg>-->
+<!--                        <span class="close">&times;</span>-->
+<!--                    </div>-->
 
-                </div>
+<!--                </div>-->
 
-            </div>
-                <div class="slider-modal" id="modal4">
-                    <div class="slider-wrapper">
-                        <div class="gallery-slider modal4">
-                            <img src="./img/sliderGal.jpg" alt="slide" class="slide">
-                            <img src="./img/sliderGal.jpg" alt="slide" class="slide">
-                            <img src="./img/sliderGal.jpg" alt="slide" class="slide">
-                            <img src="./img/sliderGal.jpg" alt="slide" class="slide">
-                            <img src="./img/sliderGal.jpg" alt="slide" class="slide">
-                        </div>
-                        <div class="slider-btn-prev">
-                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 477.175 477.175" style="enable-background:new 0 0 477.175 477.175;" xml:space="preserve">
-<g>
-	<path d="M145.188,238.575l215.5-215.5c5.3-5.3,5.3-13.8,0-19.1s-13.8-5.3-19.1,0l-225.1,225.1c-5.3,5.3-5.3,13.8,0,19.1l225.1,225   c2.6,2.6,6.1,4,9.5,4s6.9-1.3,9.5-4c5.3-5.3,5.3-13.8,0-19.1L145.188,238.575z"/>
-</g>
+<!--            </div>-->
+<!--                <div class="slider-modal" id="modal4">-->
+<!--                    <div class="slider-wrapper">-->
+<!--                        <div class="gallery-slider modal4">-->
+<!--                            <img src="./img/sliderGal.jpg" alt="slide" class="slide">-->
+<!--                            <img src="./img/sliderGal.jpg" alt="slide" class="slide">-->
+<!--                            <img src="./img/sliderGal.jpg" alt="slide" class="slide">-->
+<!--                            <img src="./img/sliderGal.jpg" alt="slide" class="slide">-->
+<!--                            <img src="./img/sliderGal.jpg" alt="slide" class="slide">-->
+<!--                        </div>-->
+<!--                        <div class="slider-btn-prev">-->
+<!--                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 477.175 477.175" style="enable-background:new 0 0 477.175 477.175;" xml:space="preserve">-->
+<!--<g>-->
+<!--	<path d="M145.188,238.575l215.5-215.5c5.3-5.3,5.3-13.8,0-19.1s-13.8-5.3-19.1,0l-225.1,225.1c-5.3,5.3-5.3,13.8,0,19.1l225.1,225   c2.6,2.6,6.1,4,9.5,4s6.9-1.3,9.5-4c5.3-5.3,5.3-13.8,0-19.1L145.188,238.575z"/>-->
+<!--</g>-->
 
-</svg>
-                        </div>
-                        <div class="slider-btn-next">
-                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 129 129" enable-background="new 0 0 129 129">
-                                <g>
-                                    <path d="m40.4,121.3c-0.8,0.8-1.8,1.2-2.9,1.2s-2.1-0.4-2.9-1.2c-1.6-1.6-1.6-4.2 0-5.8l51-51-51-51c-1.6-1.6-1.6-4.2 0-5.8 1.6-1.6 4.2-1.6 5.8,0l53.9,53.9c1.6,1.6 1.6,4.2 0,5.8l-53.9,53.9z"/>
-                                </g>
-                            </svg>
-                        </div>
-                        <div class="close-wrapper">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100"><g><g clip-path="url(#clip-78EDDDF4-D35F-49DF-AAFD-5767E7BC275A)"><path fill="#282f40" d="M100 100c55.228 0 100-44.772 100-100s-44.772-100-100-100S0-55.228 0 0s44.772 100 100 100z"/></g></g></svg>
-                            <span class="close">&times;</span>
-                        </div>
+<!--</svg>-->
+<!--                        </div>-->
+<!--                        <div class="slider-btn-next">-->
+<!--                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 129 129" enable-background="new 0 0 129 129">-->
+<!--                                <g>-->
+<!--                                    <path d="m40.4,121.3c-0.8,0.8-1.8,1.2-2.9,1.2s-2.1-0.4-2.9-1.2c-1.6-1.6-1.6-4.2 0-5.8l51-51-51-51c-1.6-1.6-1.6-4.2 0-5.8 1.6-1.6 4.2-1.6 5.8,0l53.9,53.9c1.6,1.6 1.6,4.2 0,5.8l-53.9,53.9z"/>-->
+<!--                                </g>-->
+<!--                            </svg>-->
+<!--                        </div>-->
+<!--                        <div class="close-wrapper">-->
+<!--                            <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100"><g><g clip-path="url(#clip-78EDDDF4-D35F-49DF-AAFD-5767E7BC275A)"><path fill="#282f40" d="M100 100c55.228 0 100-44.772 100-100s-44.772-100-100-100S0-55.228 0 0s44.772 100 100 100z"/></g></g></svg>-->
+<!--                            <span class="close">&times;</span>-->
+<!--                        </div>-->
 
-                    </div>
-                </div>
+<!--                    </div>-->
+<!--                </div>-->
 
-                    <div class="slider-modal" id="modal5">
-                        <div class="slider-wrapper">
-                            <div class="gallery-slider modal5">
-                                <img src="./img/sliderGal.jpg" alt="slide" class="slide">
-                                <img src="./img/sliderGal.jpg" alt="slide" class="slide">
-                                <img src="./img/sliderGal.jpg" alt="slide" class="slide">
-                                <img src="./img/sliderGal.jpg" alt="slide" class="slide">
-                                <img src="./img/sliderGal.jpg" alt="slide" class="slide">
-                            </div>
-                            <div class="slider-btn-prev">
-                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 477.175 477.175" style="enable-background:new 0 0 477.175 477.175;" xml:space="preserve">
-<g>
-	<path d="M145.188,238.575l215.5-215.5c5.3-5.3,5.3-13.8,0-19.1s-13.8-5.3-19.1,0l-225.1,225.1c-5.3,5.3-5.3,13.8,0,19.1l225.1,225   c2.6,2.6,6.1,4,9.5,4s6.9-1.3,9.5-4c5.3-5.3,5.3-13.8,0-19.1L145.188,238.575z"/>
-</g>
+<!--                    <div class="slider-modal" id="modal5">-->
+<!--                        <div class="slider-wrapper">-->
+<!--                            <div class="gallery-slider modal5">-->
+<!--                                <img src="./img/sliderGal.jpg" alt="slide" class="slide">-->
+<!--                                <img src="./img/sliderGal.jpg" alt="slide" class="slide">-->
+<!--                                <img src="./img/sliderGal.jpg" alt="slide" class="slide">-->
+<!--                                <img src="./img/sliderGal.jpg" alt="slide" class="slide">-->
+<!--                                <img src="./img/sliderGal.jpg" alt="slide" class="slide">-->
+<!--                            </div>-->
+<!--                            <div class="slider-btn-prev">-->
+<!--                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 477.175 477.175" style="enable-background:new 0 0 477.175 477.175;" xml:space="preserve">-->
+<!--<g>-->
+<!--	<path d="M145.188,238.575l215.5-215.5c5.3-5.3,5.3-13.8,0-19.1s-13.8-5.3-19.1,0l-225.1,225.1c-5.3,5.3-5.3,13.8,0,19.1l225.1,225   c2.6,2.6,6.1,4,9.5,4s6.9-1.3,9.5-4c5.3-5.3,5.3-13.8,0-19.1L145.188,238.575z"/>-->
+<!--</g>-->
 
-</svg>
-                            </div>
-                            <div class="slider-btn-next">
-                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 129 129" enable-background="new 0 0 129 129">
-                                    <g>
-                                        <path d="m40.4,121.3c-0.8,0.8-1.8,1.2-2.9,1.2s-2.1-0.4-2.9-1.2c-1.6-1.6-1.6-4.2 0-5.8l51-51-51-51c-1.6-1.6-1.6-4.2 0-5.8 1.6-1.6 4.2-1.6 5.8,0l53.9,53.9c1.6,1.6 1.6,4.2 0,5.8l-53.9,53.9z"/>
-                                    </g>
-                                </svg>
-                            </div>
-                            <div class="close-wrapper">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100"><g><g clip-path="url(#clip-78EDDDF4-D35F-49DF-AAFD-5767E7BC275A)"><path fill="#282f40" d="M100 100c55.228 0 100-44.772 100-100s-44.772-100-100-100S0-55.228 0 0s44.772 100 100 100z"/></g></g></svg>
-                                <span class="close">&times;</span>
-                            </div>
+<!--</svg>-->
+<!--                            </div>-->
+<!--                            <div class="slider-btn-next">-->
+<!--                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 129 129" enable-background="new 0 0 129 129">-->
+<!--                                    <g>-->
+<!--                                        <path d="m40.4,121.3c-0.8,0.8-1.8,1.2-2.9,1.2s-2.1-0.4-2.9-1.2c-1.6-1.6-1.6-4.2 0-5.8l51-51-51-51c-1.6-1.6-1.6-4.2 0-5.8 1.6-1.6 4.2-1.6 5.8,0l53.9,53.9c1.6,1.6 1.6,4.2 0,5.8l-53.9,53.9z"/>-->
+<!--                                    </g>-->
+<!--                                </svg>-->
+<!--                            </div>-->
+<!--                            <div class="close-wrapper">-->
+<!--                                <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100"><g><g clip-path="url(#clip-78EDDDF4-D35F-49DF-AAFD-5767E7BC275A)"><path fill="#282f40" d="M100 100c55.228 0 100-44.772 100-100s-44.772-100-100-100S0-55.228 0 0s44.772 100 100 100z"/></g></g></svg>-->
+<!--                                <span class="close">&times;</span>-->
+<!--                            </div>-->
 
-                        </div>
-                    </div>
+<!--                        </div>-->
+<!--                    </div>-->
 
-                        <div class="slider-modal" id="modal6">
-                            <div class="slider-wrapper">
-                                <div class="gallery-slider modal6">
-                                    <img src="./img/sliderGal.jpg" alt="slide" class="slide">
-                                    <img src="./img/sliderGal.jpg" alt="slide" class="slide">
-                                    <img src="./img/sliderGal.jpg" alt="slide" class="slide">
-                                    <img src="./img/sliderGal.jpg" alt="slide" class="slide">
-                                    <img src="./img/sliderGal.jpg" alt="slide" class="slide">
-                                </div>
-                                <div class="slider-btn-prev">
-                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 477.175 477.175" style="enable-background:new 0 0 477.175 477.175;" xml:space="preserve">
-<g>
-	<path d="M145.188,238.575l215.5-215.5c5.3-5.3,5.3-13.8,0-19.1s-13.8-5.3-19.1,0l-225.1,225.1c-5.3,5.3-5.3,13.8,0,19.1l225.1,225   c2.6,2.6,6.1,4,9.5,4s6.9-1.3,9.5-4c5.3-5.3,5.3-13.8,0-19.1L145.188,238.575z"/>
-</g>
+<!--                        <div class="slider-modal" id="modal6">-->
+<!--                            <div class="slider-wrapper">-->
+<!--                                <div class="gallery-slider modal6">-->
+<!--                                    <img src="./img/sliderGal.jpg" alt="slide" class="slide">-->
+<!--                                    <img src="./img/sliderGal.jpg" alt="slide" class="slide">-->
+<!--                                    <img src="./img/sliderGal.jpg" alt="slide" class="slide">-->
+<!--                                    <img src="./img/sliderGal.jpg" alt="slide" class="slide">-->
+<!--                                    <img src="./img/sliderGal.jpg" alt="slide" class="slide">-->
+<!--                                </div>-->
+<!--                                <div class="slider-btn-prev">-->
+<!--                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 477.175 477.175" style="enable-background:new 0 0 477.175 477.175;" xml:space="preserve">-->
+<!--<g>-->
+<!--	<path d="M145.188,238.575l215.5-215.5c5.3-5.3,5.3-13.8,0-19.1s-13.8-5.3-19.1,0l-225.1,225.1c-5.3,5.3-5.3,13.8,0,19.1l225.1,225   c2.6,2.6,6.1,4,9.5,4s6.9-1.3,9.5-4c5.3-5.3,5.3-13.8,0-19.1L145.188,238.575z"/>-->
+<!--</g>-->
 
-</svg>
-                                </div>
-                                <div class="slider-btn-next">
-                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 129 129" enable-background="new 0 0 129 129">
-                                        <g>
-                                            <path d="m40.4,121.3c-0.8,0.8-1.8,1.2-2.9,1.2s-2.1-0.4-2.9-1.2c-1.6-1.6-1.6-4.2 0-5.8l51-51-51-51c-1.6-1.6-1.6-4.2 0-5.8 1.6-1.6 4.2-1.6 5.8,0l53.9,53.9c1.6,1.6 1.6,4.2 0,5.8l-53.9,53.9z"/>
-                                        </g>
-                                    </svg>
-                                </div>
-                                <div class="close-wrapper">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100"><g><g clip-path="url(#clip-78EDDDF4-D35F-49DF-AAFD-5767E7BC275A)"><path fill="#282f40" d="M100 100c55.228 0 100-44.772 100-100s-44.772-100-100-100S0-55.228 0 0s44.772 100 100 100z"/></g></g></svg>
-                                    <span class="close">&times;</span>
-                                </div>
+<!--</svg>-->
+<!--                                </div>-->
+<!--                                <div class="slider-btn-next">-->
+<!--                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 129 129" enable-background="new 0 0 129 129">-->
+<!--                                        <g>-->
+<!--                                            <path d="m40.4,121.3c-0.8,0.8-1.8,1.2-2.9,1.2s-2.1-0.4-2.9-1.2c-1.6-1.6-1.6-4.2 0-5.8l51-51-51-51c-1.6-1.6-1.6-4.2 0-5.8 1.6-1.6 4.2-1.6 5.8,0l53.9,53.9c1.6,1.6 1.6,4.2 0,5.8l-53.9,53.9z"/>-->
+<!--                                        </g>-->
+<!--                                    </svg>-->
+<!--                                </div>-->
+<!--                                <div class="close-wrapper">-->
+<!--                                    <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100"><g><g clip-path="url(#clip-78EDDDF4-D35F-49DF-AAFD-5767E7BC275A)"><path fill="#282f40" d="M100 100c55.228 0 100-44.772 100-100s-44.772-100-100-100S0-55.228 0 0s44.772 100 100 100z"/></g></g></svg>-->
+<!--                                    <span class="close">&times;</span>-->
+<!--                                </div>-->
 
-                            </div>
+<!--                            </div>-->
 
-    <footer class="footer">
-        <div class="container">
+<!--    <footer class="footer">-->
+<!--        <div class="container">-->
 
-            <div class="footer__wrapper">
-                <div class="footer__left">© Camara, 2019</div>
-                <div class="footer__right">Школа Capoeira Camara</div>
-            </div>
-        </div>
-    </footer>
-</div>
+<!--            <div class="footer__wrapper">-->
+<!--                <div class="footer__left">© Camara, 2019</div>-->
+<!--                <div class="footer__right">Школа Capoeira Camara</div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </footer>-->
+<!--</div>-->
     <footer class="footer">
         <div class="container">
 
